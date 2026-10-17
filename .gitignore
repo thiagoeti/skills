@@ -1,0 +1,93 @@
+### general
+
+# env
+
+.env
+**/.env
+
+.env*
+**/.env*
+
+!**/.env.example
+
+### data
+
+data
+**/data
+!src/lib/data
+
+storage
+**/storage
+
+### tmp
+
+tmp
+**/tmp
+
+### logs
+
+*.log
+**/*.log
+
+logs
+**/logs
+
+### libraries
+
+node_modules
+**/node_modules
+
+# package.json # reinstall
+# **/package.json # reinstall
+
+vendor
+**/vendor
+
+### build
+
+# runtime
+
+bun.lock
+**/bun.lock
+
+runtime
+**/runtime
+
+# build
+
+dist
+**/dist
+
+build
+**/build
+
+.astro
+**/.astro
+
+### front
+
+# next
+
+.next
+**/.next
+
+out
+**/out
+
+*.tsbuildinfo
+next-env.d.ts
+
+.vercel
+
+### tests
+
+.playwright-mcp
+**/.playwright-mcp
+
+### others
+
+Thumbs.db
+.DS_Store
+*.pem
+
+###
